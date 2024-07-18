@@ -11,7 +11,6 @@ function Kavo:DraggingEnabled(frame, parent)
         
     parent = parent or frame
     
-    -- Тут начинается приступ говнокода 5 степени :)
     local dragging = false
     local dragInput, mousePos, framePos
 
@@ -341,7 +340,7 @@ function Kavo.CreateLib(kavName, themeList)
     MainSide.Parent = Main
     MainSide.BackgroundColor3 = themeList.Header
     Objects[MainSide] = "Header"
-    MainSide.Position = UDim2.new(-7.4505806e-09, 0, 0.0911949649, 0)
+    MainSide.Position = UDim2.new(-7.4505806e-09, 7, 0.0911949649, 0)
     MainSide.Size = UDim2.new(0, 149, 0, 289)
 
     sideCorner.CornerRadius = UDim.new(0, 4)
