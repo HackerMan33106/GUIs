@@ -276,7 +276,7 @@ function Kavo.CreateLib(kavName, themeList)
     Main.Parent = ScreenGui
     Main.BackgroundColor3 = themeList.Background
     Main.ClipsDescendants = true
-    Main.Position = UDim2.new(0.47299999, 0, 0.275485456, 347)
+    Main.Position = UDim2.new(0.47299999, 0, 0.275485456, 0)
     Main.Size = UDim2.new(0, 525, 0, 347)
 
     MainCorner.CornerRadius = UDim.new(0, 4)
