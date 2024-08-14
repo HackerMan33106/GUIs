@@ -238,7 +238,7 @@ function Kavo.CreateLib(kavName, themeList)
         end
     end
     local ScreenGui = Instance.new("ScreenGui")
-    local Main = Instance.new("TextButton")
+    local Main = Instance.new("ImageButton")
     local MainCorner = Instance.new("UICorner")
     local MainHeader = Instance.new("Frame")
     local headerCover = Instance.new("UICorner")
