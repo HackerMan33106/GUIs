@@ -264,6 +264,7 @@ function Kavo.CreateLib(kavName, themeList)
 
     Kavo.themeStyles = themeList
 
+	return Kavo
 end
 
     infoContainer.Name = "infoContainer"
